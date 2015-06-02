@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        
+      
+     
+		
+	<link rel="stylesheet" href="css/jquery.mobile-1.2.0.min.css" />
+	<script src="js/jquery-1.8.2.min.js"></script>
+	<script src="js/jquery.mobile-1.2.0.min.js"></script>
+	
+		<script src="purl.js"></script>
+    </head>
+    <body>
+       <div data-role="page">
+	
+			<div data-role="header" data-mini="true">
+			<a href="index.html" data-icon="delete" >Cancel</a>
+			<h1>Add Pigeon</h1>
+			<a href="index.html" data-icon="check" data-theme="b">Save</a>
+			</div>
+	
+			<div data-role="content">			
+			<div data-role="fieldcontain" class="ui-hide-label" data-mini="true">
+			<label for="name">Name:</label>
+   			<input type="text" name="name" id="name" value="" data-mini="true" placeholder="Name"/>
+			</div>
+			
+			<div data-role="fieldcontain" class="ui-hide-label" data-mini="true">
+			<label for="ringnumber">Ring Number:</label>
+   			<input type="text" name="ringnumber" id="ringnumber" value="" data-mini="true" placeholder="Ring Number"/>
+			</div>
+			
+			<div data-role="fieldcontain" class="ui-hide-label" data-mini="true">
+			<label for="select-choice-min" class="select">Sex</label>
+			<select name="select-choice-min" id="select-choice-min" data-mini="true">
+   			<option value="male">Male</option>
+   			<option value="female">Female</option>
+   			<option value="unknown">Unknown</option>
+			</select>		
+			</div>	
+			
+	
+			<div data-role="fieldcontain" class="ui-hide-label" data-mini="true">
+			<label for="strain">Strain:</label>
+   			<input type="text" name="strain" id="strain" value="" data-mini="true" placeholder="Strain"/>
+			</div>
+			
+			<div data-role="fieldcontain" class="ui-hide-label" data-mini="true">
+			<label for="sire">Sire:</label>
+   			<input type="search" name="sire" id="sire" value="" data-mini="true" placeholder="Sire"/>
+			</div>
+
+			<div data-role="fieldcontain" class="ui-hide-label" data-mini="true">
+			<label for="dam">Dam:</label>
+   			<input type="search" name="dam" id="dam" value="" data-mini="true" placeholder="Dam" data-mini="true" />
+			</div>
+			
+			<div data-role="fieldcontain" class="ui-hide-label" data-mini="true">
+			<label for="notes">Notes:</label>
+   			<input type="text" style="width:50px name="notes" id="notes" value="" data-mini="true" placeholder="Additional Notes"/>
+			</div>
+						
+		</div>
+		
+		  <div data-role="footer" data-position="fixed" data-mini="true">
+      <div data-role="navbar" data-mini="true">
+        <ul>
+          <li><a href="#" data-icon="check" class="ui-btn-active ui-state-persist">Training</a>
+          </li>
+          <li><a href="stock.html" data-icon="refresh">Stock</a>
+          </li>
+          <li><a href="gallery.html" data-icon="gear">Gallery</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    		
+	</div>	
+    </body>
+</html>
